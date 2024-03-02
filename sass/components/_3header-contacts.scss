@@ -1,0 +1,11 @@
+.header {
+  &__contact-list {
+    & .header__contact-link:hover,
+    & .header__contact-link:focus {
+      color: $hover-color;
+    }
+  }
+
+  &__contact-link {
+  }
+}

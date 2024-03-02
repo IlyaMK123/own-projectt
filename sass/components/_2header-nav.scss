@@ -1,0 +1,21 @@
+.header {
+  &__nav {
+  }
+
+  &__logo {
+    font-size: 26px;
+    color: $hover-color;
+    & span {
+      color: $secondary-text-color;
+    }
+  }
+
+  &__link {
+    &:hover,
+    &:focus {
+      color: $hover-color;
+    }
+  }
+}
+.header__span {
+}

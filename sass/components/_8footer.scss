@@ -1,0 +1,26 @@
+.footer {
+  background-color: $hero-background;
+  &__list {
+  }
+
+  &__logo {
+    font-size: 26px;
+    color: $hover-color;
+    & span {
+      color: $third-text-color;
+    }
+  }
+
+  &__address {
+  }
+}
+.address {
+  &__list {
+  }
+}
+.geo {
+  color: $third-text-color;
+}
+.adress-contact {
+  color: $primary-text-color;
+}
